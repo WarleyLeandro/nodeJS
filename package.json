@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "projeto para aprender nodejs DIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarleyLeandro/nodeJS.git"
+  },
+  "author": "Warley Leandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarleyLeandro/nodeJS/issues"
+  },
+  "homepage": "https://github.com/WarleyLeandro/nodeJS#readme"
+}
