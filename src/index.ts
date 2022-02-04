@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: true }))
 
 // Configurações da rota
 app.use(usersRoute)
-
 app.use(statusRoute)
 
 
