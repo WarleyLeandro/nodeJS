@@ -8,3 +8,4 @@ Repositório para estudar nodeJS, RestAPI utilizando express
 ## Banco de Dados
 
 - [elephantSQL](https://www.elephantsql.com/)
+- Lib [npm pg](https://www.npmjs.com/package/pg)
