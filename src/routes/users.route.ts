@@ -17,8 +17,7 @@ usersRoute.get('/users/:uuid', async (req: Request<{ uuid: string }>, res: Respo
         res.status(StatusCodes.OK).send(user)
 
     } catch(error) {
-        res.sendStatus(StatusCodes.INTERNAL_SERVER_ERROR)
-
+        next(error)
     }
 
 
