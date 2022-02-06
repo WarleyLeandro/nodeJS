@@ -1,4 +1,4 @@
-# nodeJS
+# RestAPI com NodeJS (Express)
 Repositório para estudar nodeJS, RestAPI utilizando express
 
 ## Como usar?
