@@ -13,6 +13,7 @@ async function basicAuthenticationMiddleware(req: Request, res: Response, next: 
         }
 
         const [authenticationType, token] = authorizationHeader.split(' ')
+        
         if(authenticationType !== 'Basic' || !token) {
             throw new ForbiddenError('Tipo de autentificação inválida')
         }
@@ -30,7 +31,7 @@ async function basicAuthenticationMiddleware(req: Request, res: Response, next: 
         if(!user) throw new ForbiddenError('Usuário ou senha inválidos!')
 
         req.user = user
-
+        next()
 
     } catch(error) {
         next(error)
